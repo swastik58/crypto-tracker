@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+.coin-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.coin-row
+{
+    display: flex;
+    flex-direction: row;
+    justify-items: start;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 900px;
+}
+
+.coin
+{
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;;
+}
+
+.coin img
+{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.coin h1
+{
+    font-size: 16px;
+    width: 150px;
+    font-family: 'Syne Mono', monospace;
+}
+
+.coin-symbol
+{
+    text-transform: uppercase;
+}
+
+.coin-data
+{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Della Respira', serif;
+
+}
+
+.coin-volume
+{
+    width: 210px;
+    font-family: 'Della Respira', serif;
+
+}
+
+.coin-price
+{
+    width: 120px;
+    font-family: 'Della Respira', serif;
+
+}
+
+.coin-marketcap
+{
+    width: 240px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1.5px;
+}
+
+.coin-percent
+{
+    width: 90px;
+    font-family: 'Della Respira', serif;
+
+}
+
+.red
+{
+    color: #f00606;
+}
+
+.green
+{
+    color: #11d811;
+}
+
