@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+The website is published using Heroku in the below given link
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+LINK : https://crypto-tracker-react.herokuapp.com/
 
 In the project directory, you can run:
 
